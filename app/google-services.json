@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315038339677",
+    "project_id": "diskografi-artis",
+    "storage_bucket": "diskografi-artis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315038339677:android:80cf68dea8ccca5c3e73b4",
+        "android_client_info": {
+          "package_name": "com.example.diskografiartis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315038339677-h583us0ri3emj22iq15v5sh5ah9fobe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFe0teyVh3F0hsZwNMhoJZQo_0MjpG6WA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315038339677-h583us0ri3emj22iq15v5sh5ah9fobe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

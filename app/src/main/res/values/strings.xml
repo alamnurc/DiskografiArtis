@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Diskografi Artis</string>
+    <string name="splash_screen">Diskografi Artis</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_splash_screen_full_screen">SplashScreenFullScreen</string>
+    <string name="your_favorite_artist">Your favorite artist!</string>
+    <string name="nama_artis">Nama Artis</string>
+    <string name="nama_negara">Nama Negara</string>
+    <string name="nama_genre">Nama Genre</string>
+    <string name="foto_artis">Foto Artis</string>
+    <string name="tambah_artis">Tambah Artis</string>
+    <string name="hapus">Hapus</string>
+    <string name="data_artis">Data Artis</string>
+    <string name="titik_dua">:</string>
+    <string name="anggota">Anggota</string>
+    <string name="nama_anggota">Nama Anggota</string>
+    <string name="artis">Artis</string>
+    <string name="negara">Negara</string>
+    <string name="genre">Genre</string>
+    <string name="tahun_aktif">Tahun Aktif</string>
+    <string name="aktif_sampai">Aktif Sampai</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="nama_album">Nama Album</string>
+    <string name="foto_album">Foto Album</string>
+    <string name="rilis">Rilis</string>
+    <string name="tahun_rilis">Tahun Rilis</string>
+    <string name="simpan">Simpan</string>
+    <string name="lagu">Lagu</string>
+    <string name="daftar_lagu">Daftar Lagu</string>
+    <string name="label_album">Nama Album</string>
+    <string name="label_rilis">Tahun Rilis</string>
+</resources>
