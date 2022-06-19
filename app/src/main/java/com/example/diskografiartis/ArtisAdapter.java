@@ -78,7 +78,7 @@ public class ArtisAdapter extends RecyclerView.Adapter<ArtisAdapter.ArtisViewHol
         public ArtisViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            imgArtis = itemView.findViewById(R.id.foto_artis);
+            imgArtis = itemView.findViewById(R.id.iv_artis);
             tvArtis = itemView.findViewById(R.id.label_artis);
             tvNegara = itemView.findViewById(R.id.label_negara);
             tvGenre = itemView.findViewById(R.id.label_genre);

@@ -29,7 +29,7 @@ public class TampilArtis extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tampil_artis);
 
-        imgArtis = findViewById(R.id.iv_lagu);
+        imgArtis = findViewById(R.id.iv_artis);
         tvArtis = findViewById(R.id.edit_artist);
         anggota = findViewById(R.id.edit_anggota);
         tvNegara = findViewById(R.id.edit_negara);

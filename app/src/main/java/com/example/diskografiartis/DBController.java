@@ -15,7 +15,7 @@ public class DBController extends SQLiteOpenHelper {
     private final static int DATABASE_VERSION = 3;
     private final static String DATABASE_NAME = "DB_Diskografi";
     private final static String TABLE_ARTIS = "T_Artis";
-    private final static String KEY_ID_ARTIS = "Id_Lagu";
+    private final static String KEY_ID_ARTIS = "Id_Artis";
     private final static String KEY_FOTO = "Foto";
     private final static String KEY_ARTIS = "Artis";
     private final static String KEY_ANGGOTA = "Anggota";
