@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
@@ -49,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id==R.id.item_menu_add) {
-            Intent openadd = new Intent(getApplicationContext(), InputArtis.class);
-            openadd.putExtra("CRUD", "INSERT");
-            startActivity(openadd);
+            Intent tampilInput = new Intent(getApplicationContext(), InputArtis.class);
+            tampilInput.putExtra("CRUD", "INSERT");
+            startActivity(tampilInput);
         }
 
         return super.onOptionsItemSelected(item);

@@ -56,8 +56,6 @@ public class ArtisAdapter extends RecyclerView.Adapter<ArtisAdapter.ArtisViewHol
         try {
             File file = new File(holder.foto);
             Bitmap bitmap = BitmapFactory.decodeStream(new FileInputStream(file));
-            holder.imgArtis.setImageBitmap(bitmap);
-            holder.imgArtis.setContentDescription(holder.foto);
         } catch (FileNotFoundException er) {
             er.printStackTrace();
             Toast.makeText(context, "Gambar tidak ditemukan", Toast.LENGTH_SHORT).show();

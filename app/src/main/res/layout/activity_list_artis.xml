@@ -16,7 +16,7 @@
             android:id="@+id/artist_photo"
             android:layout_width="96dp"
             android:layout_height="96dp"
-            app:srcCompat="@drawable/ic_launcher_foreground"
+            app:srcCompat="@drawable/ic_baseline_people_24"
             android:contentDescription="@string/foto_artis" />
 
         <LinearLayout

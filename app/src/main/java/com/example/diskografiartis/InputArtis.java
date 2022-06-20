@@ -9,7 +9,6 @@ import android.content.ContextWrapper;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -26,7 +25,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Objects;
 import java.util.UUID;
@@ -39,7 +37,6 @@ public class InputArtis extends AppCompatActivity implements  View.OnClickListen
     private ImageView ivArtis;
     private EditText editArtis, editAnggota, editNegara, editGenre, editTahunAktif, editAktifSampai, editSinopsis, editAlbum, editRilis, editLagu;
     private Button btnSimpan;
-    private Object CropImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +55,7 @@ public class InputArtis extends AppCompatActivity implements  View.OnClickListen
         editAlbum = findViewById(R.id.edit_nama_album);
         editRilis = findViewById(R.id.edit_rilis);
         editLagu = findViewById(R.id.edit_isi_lagu);
+        btnSimpan = findViewById(R.id.btn_simpan);
 
         dbController = new DBController(this);
 
@@ -83,12 +81,6 @@ public class InputArtis extends AppCompatActivity implements  View.OnClickListen
 
         ivArtis.setOnClickListener(this);
         btnSimpan.setOnClickListener(this);
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
     }
 
     public static String saveImageToInternalStorage(Bitmap image, Context context) {
@@ -125,15 +117,6 @@ public class InputArtis extends AppCompatActivity implements  View.OnClickListen
     public boolean onPrepareOptionsMenu(Menu menu) {
 
         MenuItem item = menu.findItem(R.id.item_menu_hapus);
-
-        if(updateData==true) {
-            item.setEnabled(true);
-            item.getIcon().setAlpha(255);
-        } else {
-            item.setEnabled(false);
-            item.getIcon().setAlpha(125);
-        }
-
         return super.onPrepareOptionsMenu(menu);
     }
 
