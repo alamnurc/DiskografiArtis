@@ -193,26 +193,30 @@ public class DBController extends SQLiteOpenHelper {
         //Data Artis ke-2
         User artis2 = new User(
                 idArtis,
-                storeImageFile(R.drawable.artis1),
-                "Gesaffelstein",
-                "-",
-                "Belanda",
-                "Elektronik",
-                "2008",
+                storeImageFile(R.drawable.artis2),
+                "Muse",
+                "Matt Bellamy, Chris Wolstenholme, Dominic Howard",
+                "England",
+                "Alternative Rock",
+                "1994",
                 "Sekarang",
-                "Mike Lévy (French pronunciation: \u200B[majk levi]; born 24 June 1985[1] known professionally as Gesaffelstein (German pronunciation: [ɡəˈzafl̩ʃtaɪ̯n]), is a French music programmer, DJ, songwriter, and record producer from Lyon. He has worked alongside The Weeknd, Daft Punk, Kanye West, A$AP Rocky, Electric Youth, Haim, Miss Kittin, The Hacker, Jean-Michel Jarre, and Pharrell Williams.",
-                "Hyperion",
-                "8 Maret 2019",
-                "Hyperion\n" +
-                        "Reset\n" +
-                        "Lost in the Fire (with The Weeknd)\n" +
-                        "Ever Now\n" +
-                        "Blast Off (with Pharrell Williams)\n" +
-                        "So Bad (featuring Haim)\n" +
-                        "Forever (featuring The Hacker and Electric Youth)\n" +
-                        "Vortex\n" +
-                        "Memora\n" +
-                        "Humanity Gone"
+                "Muse are an English rock band from Teignmouth, Devon, formed in 1994. The band consists of Matt Bellamy (lead vocals, guitar, keyboards), Chris Wolstenholme (bass guitar, backing vocals), and Dominic Howard (drums).",
+                "Absolution",
+                "15 September 2003",
+                "Intro\n" +
+                        "Apocalypse Please\n" +
+                        "Time Is Running Out\n" +
+                        "Sing for Absolution\n" +
+                        "Stockholm Syndrome\n" +
+                        "Falling Away with You\n" +
+                        "Interlude\n" +
+                        "Hysteria\n" +
+                        "Blackout\n" +
+                        "Butterflies and Hurricanes\n" +
+                        "The Small Print\n" +
+                        "Endlessly\n" +
+                        "Thoughts of a Dying Atheist\n" +
+                        "Ruled by Secrecy\n"
         );
         tambahArtis(artis2, db);
     }
